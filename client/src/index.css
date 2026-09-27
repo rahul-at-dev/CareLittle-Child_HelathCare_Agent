@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F4FAF5;
+    color: #253D2C;
+  }
+}
+
+/* Classical Minimalist Box Borders & Button Utilities */
+.classical-card {
+  border: 1.5px solid #253D2C;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 0px #253D2C;
+  border-radius: 8px;
+}
+
+.classical-card-sm {
+  border: 1.5px solid #2E6F40;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+.classical-btn-primary {
+  border: 1.5px solid #253D2C;
+  background-color: #2E6F40;
+  color: #FFFFFF;
+  font-weight: 600;
+  box-shadow: 2px 2px 0px #253D2C;
+  transition: all 0.15s ease-in-out;
+  border-radius: 6px;
+}
+
+.classical-btn-primary:hover {
+  background-color: #253D2C;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #253D2C;
+}
+
+.classical-btn-secondary {
+  border: 1.5px solid #2E6F40;
+  background-color: #CFFFDC;
+  color: #253D2C;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.classical-btn-secondary:hover {
+  background-color: #68BA7F;
+  color: #FFFFFF;
+}
+
+.classical-badge {
+  border: 1px solid #2E6F40;
+  background-color: #CFFFDC;
+  color: #253D2C;
+  font-weight: 600;
+  border-radius: 4px;
+}
